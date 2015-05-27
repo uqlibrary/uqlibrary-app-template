@@ -1,0 +1,35 @@
+<link rel="import" href="../uqlibrary-elements/0.5.4/lib/vulcanized-scaffold.html">
+
+<polymer-element name="uqlibrary-app-template" extends="uqlibrary-app">
+
+  <template>
+    <link rel="stylesheet" href="../uqlibrary-elements/resources/theme/component.css">
+
+    <uqlibrary-scaffold
+            appTitle="App Template"
+            appMenuFile="flint.json">
+
+      <h1> app content goes here </h1>
+
+    </uqlibrary-scaffold>
+
+  </template>
+
+  <script>
+    (function() {
+      Polymer('uqlibrary-app-template', {
+
+        appName: 'Template',
+
+        created: function () {
+        },
+
+        ready: function() {
+          var that = this;
+        }
+
+      });
+    })();
+  </script>
+
+</polymer-element>

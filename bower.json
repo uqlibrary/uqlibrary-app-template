@@ -1,0 +1,19 @@
+{
+  "name": "uqlibrary-app-template",
+  "description": "Template of an application for uqlibrary",
+  "main": "uqlibrary-app-template.html",
+  "license": "MIT",
+  "private": true,
+  "homepage": "https://github.com/uqlibrary/uqlibrary-app-template/",
+  "ignore": [
+    "/.*",
+    "/tests/"
+  ],
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "webcomponentsjs": "webcomponents/webcomponentsjs#0.5.4",
+    "web-component-tester": "Polymer/web-component-tester#2.0.5"
+  }
+}

@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=no">
+  <title>uqlibrary-app-template</title>
+
+  <script src="../../webcomponentsjs/webcomponents.js"></script>
+  <script src="../../web-component-tester/browser.js"></script>
+
+  <link rel="import" href="../uqlibrary-app-template.html">
+</head>
+<body>
+
+  <uqlibrary-app-template></uqlibrary-app-template>
+
+  <script>
+    window.addEventListener('polymer-ready', function() {
+      var parent = document.querySelector('uqlibrary-app-template');
+
+      describe('tests for uqlibrary-app-template', function () {
+        before(function () {
+
+        });
+
+        //create more tests
+
+        test('it should display app title', function(done) {
+            setTimeout(function() {
+              var pageTitle = 'template';
+              expect(pageTitle).to.be.equal("template");
+              done();
+            }, 10);
+        });
+
+      });
+    });
+  </script>
+
+</body>
+</html>
